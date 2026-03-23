@@ -1,0 +1,101 @@
+ Top 10 Death Over Batsmen:
+             batter  total_runs  balls_faced  strike_rate
+24   AB de Villiers        1421          635   223.779528
+432         RR Pant         626          318   196.855346
+104        CH Gayle         404          209   193.301435
+550         V Kohli        1099          571   192.469352
+158    F du Plessis         416          220   189.090909
+421       RG Sharma        1176          625   188.160000
+464        SA Yadav         516          276   186.956522
+31       AD Russell        1065          570   186.842105
+534        TH David         452          244   185.245902
+488      SO Hetmyer         680          368   184.782609
+
+ Orange Cap Winners:
+       season         batter  batsman_runs
+115   2007/08       SE Marsh           616
+229      2009      ML Hayden           572
+446   2009/10   SR Tendulkar           618
+502      2011       CH Gayle           608
+684      2012       CH Gayle           733
+910      2013     MEK Hussey           733
+1088     2014     RV Uthappa           660
+1148     2015      DA Warner           562
+1383     2016        V Kohli           973
+1422     2017      DA Warner           641
+1594     2018  KS Williamson           735
+1694     2019      DA Warner           692
+1866  2020/21       KL Rahul           676
+2051     2021     RD Gaikwad           635
+2144     2022     JC Buttler           863
+2423     2023   Shubman Gill           890
+2606     2024        V Kohli           741
+
+ Missing Values:
+id                    0
+season                0
+city                 51
+date                  0
+match_type            0
+player_of_match       5
+venue                 0
+team1                 0
+team2                 0
+toss_winner           0
+toss_decision         0
+winner                5
+result                0
+result_margin        19
+target_runs           3
+target_overs          3
+super_over            0
+method             1074
+umpire1               0
+umpire2               0
+dtype: int64
+
+ After Cleaning:
+city      0
+winner    0
+dtype: int64
+
+ City Distribution:
+city
+Mumbai            173
+Kolkata            93
+Delhi              90
+Chennai            85
+Hyderabad          77
+Bangalore          65
+Chandigarh         61
+Jaipur             57
+Pune               51
+Unknown            51
+Abu Dhabi          37
+Ahmedabad          36
+Bengaluru          29
+Durban             15
+Visakhapatnam      15
+Lucknow            14
+Dharamsala         13
+Dubai              13
+Centurion          12
+Rajkot             10
+Sharjah            10
+Indore              9
+Navi Mumbai         9
+Johannesburg        8
+Cape Town           7
+Port Elizabeth      7
+Cuttack             7
+Ranchi              7
+Raipur              6
+Kochi               5
+Mohali              5
+Kanpur              4
+East London         3
+Kimberley           3
+Nagpur              3
+Guwahati            3
+Bloemfontein        2
+Name: count, dtype: int64
